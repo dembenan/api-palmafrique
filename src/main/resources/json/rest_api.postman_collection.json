@@ -1,0 +1,1070 @@
+
+{
+	"id": "project.id",
+	"name": "ci_palmafrique_palm",
+	"description": "",
+	"order": [],
+	"timestamp": 1497267117086,
+	"owner": "1151918",
+	"public": false,
+	"folders": [
+		{
+			"id": "absence.id",
+			"name": "absence",
+			"description": "",
+			"order": [
+				"absence.getByCriteria",
+				"absence.create",
+				"absence.update",
+				"absence.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "admin.id",
+			"name": "admin",
+			"description": "",
+			"order": [
+				"admin.getByCriteria",
+				"admin.create",
+				"admin.update",
+				"admin.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "agent.id",
+			"name": "agent",
+			"description": "",
+			"order": [
+				"agent.getByCriteria",
+				"agent.create",
+				"agent.update",
+				"agent.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "direction.id",
+			"name": "direction",
+			"description": "",
+			"order": [
+				"direction.getByCriteria",
+				"direction.create",
+				"direction.update",
+				"direction.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "medecin.id",
+			"name": "medecin",
+			"description": "",
+			"order": [
+				"medecin.getByCriteria",
+				"medecin.create",
+				"medecin.update",
+				"medecin.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "service.id",
+			"name": "service",
+			"description": "",
+			"order": [
+				"service.getByCriteria",
+				"service.create",
+				"service.update",
+				"service.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "site.id",
+			"name": "site",
+			"description": "",
+			"order": [
+				"site.getByCriteria",
+				"site.create",
+				"site.update",
+				"site.delete"
+			],
+			"owner": "1151918"
+		},
+		{
+			"id": "typeabsence.id",
+			"name": "typeabsence",
+			"description": "",
+			"order": [
+				"typeabsence.getByCriteria",
+				"typeabsence.create",
+				"typeabsence.update",
+				"typeabsence.delete"
+			],
+			"owner": "1151918"
+		}
+	],
+	"requests": [
+		{
+			"id": "absence.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/absence/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "absence-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"dateDepart\": \"\",\n\t\t\t\"dateRetour\": \"\",\n\t\t\t\"description\": \"\",\n\t\t\t\"agentId\": \"\",\n\t\t\t\"typeId\": \"\",\n\t\t\t\"medecinId\": \"\",\n\t\t\t\"status\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "absence.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/absence/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "absence-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"dateDepart\": \"\",\n\t\t\t\"dateRetour\": \"\",\n\t\t\t\"description\": \"\",\n\t\t\t\"agentId\": \"\",\n\t\t\t\"typeId\": \"\",\n\t\t\t\"medecinId\": \"\",\n\t\t\t\"status\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "absence.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/absence/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "absence-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "absence.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/absence/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "absence-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"dateDepart\": \"\",\n\t\t\"dateRetour\": \"\",\n\t\t\"description\": \"\",\n\t\t\"agentId\": \"\",\n\t\t\"typeId\": \"\",\n\t\t\"medecinId\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"status\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "admin.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/admin/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "admin-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"typeUser\": \"\",\n\t\t\t\"username\": \"\",\n\t\t\t\"password\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "admin.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/admin/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "admin-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"typeUser\": \"\",\n\t\t\t\"username\": \"\",\n\t\t\t\"password\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "admin.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/admin/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "admin-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "admin.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/admin/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "admin-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"typeUser\": \"\",\n\t\t\"username\": \"\",\n\t\t\"password\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "agent.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/agent/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "agent-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"nom\": \"\",\n\t\t\t\"prenom\": \"\",\n\t\t\t\"sexe\": \"\",\n\t\t\t\"nombreHeure\": \"\",\n\t\t\t\"telephone\": \"\",\n\t\t\t\"age\": \"\",\n\t\t\t\"username\": \"\",\n\t\t\t\"password\": \"\",\n\t\t\t\"siteId\": \"\",\n\t\t\t\"directionId\": \"\",\n\t\t\t\"serviceId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "agent.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/agent/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "agent-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"nom\": \"\",\n\t\t\t\"prenom\": \"\",\n\t\t\t\"sexe\": \"\",\n\t\t\t\"nombreHeure\": \"\",\n\t\t\t\"telephone\": \"\",\n\t\t\t\"age\": \"\",\n\t\t\t\"username\": \"\",\n\t\t\t\"password\": \"\",\n\t\t\t\"siteId\": \"\",\n\t\t\t\"directionId\": \"\",\n\t\t\t\"serviceId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "agent.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/agent/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "agent-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "agent.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/agent/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "agent-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"nom\": \"\",\n\t\t\"prenom\": \"\",\n\t\t\"sexe\": \"\",\n\t\t\"nombreHeure\": \"\",\n\t\t\"telephone\": \"\",\n\t\t\"age\": \"\",\n\t\t\"username\": \"\",\n\t\t\"password\": \"\",\n\t\t\"siteId\": \"\",\n\t\t\"directionId\": \"\",\n\t\t\"serviceId\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "direction.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/direction/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "direction-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"nomDirection\": \"\",\n\t\t\t\"directeur\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "direction.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/direction/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "direction-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"nomDirection\": \"\",\n\t\t\t\"directeur\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "direction.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/direction/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "direction-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "direction.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/direction/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "direction-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"nomDirection\": \"\",\n\t\t\"directeur\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "medecin.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/medecin/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "medecin-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"nom\": \"\",\n\t\t\t\"prenom\": \"\",\n\t\t\t\"telephone\": \"\",\n\t\t\t\"ville\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "medecin.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/medecin/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "medecin-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"nom\": \"\",\n\t\t\t\"prenom\": \"\",\n\t\t\t\"telephone\": \"\",\n\t\t\t\"ville\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "medecin.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/medecin/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "medecin-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "medecin.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/medecin/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "medecin-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"nom\": \"\",\n\t\t\"prenom\": \"\",\n\t\t\"telephone\": \"\",\n\t\t\"ville\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "service.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/service/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "service-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"nom\": \"\",\n\t\t\t\"directionId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "service.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/service/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "service-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"nom\": \"\",\n\t\t\t\"directionId\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "service.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/service/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "service-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "service.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/service/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "service-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"nom\": \"\",\n\t\t\"directionId\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "site.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/site/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "site-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"nom\": \"\",\n\t\t\t\"superviseur\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "site.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/site/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "site-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"nom\": \"\",\n\t\t\t\"superviseur\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "site.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/site/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "site-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "site.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/site/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "site-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"nom\": \"\",\n\t\t\"superviseur\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\"\n\t}  \n}"
+		},
+		{
+			"id": "typeabsence.create",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/typeabsence/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "typeabsence-create",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"libelle\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "typeabsence.update",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/typeabsence/update",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "typeabsence-update",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\",\n\t\t\t\"libelle\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "typeabsence.delete",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/typeabsence/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439012859,
+			"name": "typeabsence-delete",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"datas\":[\n\t\t{\n  \t\t\t\"id\": \"\"\n\t\t} \n\t]  \n}"
+		},
+		{
+			"id": "typeabsence.getByCriteria",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{main_url}}/typeabsence/getByCriteria",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1497439015040,
+			"name": "typeabsence-getByCriteria",
+			"description": "",
+			"collectionId": "project.id",
+			"responses": [],
+			"rawModeData": "{\n\t\"user\":\"1\",\n\t\"isSimpleLoading\":false,\n\t\"data\":{\n  \t\t\"id\": \"\",\n\t\t\"libelle\": \"\",\n\t\t\"createdAt\": \"\",\n\t\t\"updatedAt\": \"\",\n\t\t\"createdBy\": \"\",\n\t\t\"updatedBy\": \"\",\n\t\t\"isDeleted\": \"\"\n\t}  \n}"
+		}
+	]
+}

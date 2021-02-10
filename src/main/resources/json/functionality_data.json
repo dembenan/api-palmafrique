@@ -1,0 +1,198 @@
+{
+	"user": 1,
+	"datas": [
+		{
+			"code": "ABSENCE",
+			"name": "ABSENCE"
+		},
+		{
+			"code": "VIEW_ABSENCE",
+			"parentCode": "ABSENCE",
+			"name": "VIEW ABSENCE"
+		},
+		{
+			"code": "CREATE_ABSENCE",
+			"parentCode": "ABSENCE",
+			"name": "CREATE ABSENCE"
+		},
+		{
+			"code": "UPDATE_ABSENCE",
+			"parentCode": "ABSENCE",
+			"name": "UPDATE ABSENCE"
+		},
+		{
+			"code": "DELETE_ABSENCE",
+			"parentCode": "ABSENCE",
+			"name": "DELETE ABSENCE"
+		},
+		{
+			"code": "ADMIN",
+			"name": "ADMIN"
+		},
+		{
+			"code": "VIEW_ADMIN",
+			"parentCode": "ADMIN",
+			"name": "VIEW ADMIN"
+		},
+		{
+			"code": "CREATE_ADMIN",
+			"parentCode": "ADMIN",
+			"name": "CREATE ADMIN"
+		},
+		{
+			"code": "UPDATE_ADMIN",
+			"parentCode": "ADMIN",
+			"name": "UPDATE ADMIN"
+		},
+		{
+			"code": "DELETE_ADMIN",
+			"parentCode": "ADMIN",
+			"name": "DELETE ADMIN"
+		},
+		{
+			"code": "AGENT",
+			"name": "AGENT"
+		},
+		{
+			"code": "VIEW_AGENT",
+			"parentCode": "AGENT",
+			"name": "VIEW AGENT"
+		},
+		{
+			"code": "CREATE_AGENT",
+			"parentCode": "AGENT",
+			"name": "CREATE AGENT"
+		},
+		{
+			"code": "UPDATE_AGENT",
+			"parentCode": "AGENT",
+			"name": "UPDATE AGENT"
+		},
+		{
+			"code": "DELETE_AGENT",
+			"parentCode": "AGENT",
+			"name": "DELETE AGENT"
+		},
+		{
+			"code": "DIRECTION",
+			"name": "DIRECTION"
+		},
+		{
+			"code": "VIEW_DIRECTION",
+			"parentCode": "DIRECTION",
+			"name": "VIEW DIRECTION"
+		},
+		{
+			"code": "CREATE_DIRECTION",
+			"parentCode": "DIRECTION",
+			"name": "CREATE DIRECTION"
+		},
+		{
+			"code": "UPDATE_DIRECTION",
+			"parentCode": "DIRECTION",
+			"name": "UPDATE DIRECTION"
+		},
+		{
+			"code": "DELETE_DIRECTION",
+			"parentCode": "DIRECTION",
+			"name": "DELETE DIRECTION"
+		},
+		{
+			"code": "MEDECIN",
+			"name": "MEDECIN"
+		},
+		{
+			"code": "VIEW_MEDECIN",
+			"parentCode": "MEDECIN",
+			"name": "VIEW MEDECIN"
+		},
+		{
+			"code": "CREATE_MEDECIN",
+			"parentCode": "MEDECIN",
+			"name": "CREATE MEDECIN"
+		},
+		{
+			"code": "UPDATE_MEDECIN",
+			"parentCode": "MEDECIN",
+			"name": "UPDATE MEDECIN"
+		},
+		{
+			"code": "DELETE_MEDECIN",
+			"parentCode": "MEDECIN",
+			"name": "DELETE MEDECIN"
+		},
+		{
+			"code": "SERVICE",
+			"name": "SERVICE"
+		},
+		{
+			"code": "VIEW_SERVICE",
+			"parentCode": "SERVICE",
+			"name": "VIEW SERVICE"
+		},
+		{
+			"code": "CREATE_SERVICE",
+			"parentCode": "SERVICE",
+			"name": "CREATE SERVICE"
+		},
+		{
+			"code": "UPDATE_SERVICE",
+			"parentCode": "SERVICE",
+			"name": "UPDATE SERVICE"
+		},
+		{
+			"code": "DELETE_SERVICE",
+			"parentCode": "SERVICE",
+			"name": "DELETE SERVICE"
+		},
+		{
+			"code": "SITE",
+			"name": "SITE"
+		},
+		{
+			"code": "VIEW_SITE",
+			"parentCode": "SITE",
+			"name": "VIEW SITE"
+		},
+		{
+			"code": "CREATE_SITE",
+			"parentCode": "SITE",
+			"name": "CREATE SITE"
+		},
+		{
+			"code": "UPDATE_SITE",
+			"parentCode": "SITE",
+			"name": "UPDATE SITE"
+		},
+		{
+			"code": "DELETE_SITE",
+			"parentCode": "SITE",
+			"name": "DELETE SITE"
+		},
+		{
+			"code": "TYPEABSENCE",
+			"name": "TYPEABSENCE"
+		},
+		{
+			"code": "VIEW_TYPEABSENCE",
+			"parentCode": "TYPEABSENCE",
+			"name": "VIEW TYPEABSENCE"
+		},
+		{
+			"code": "CREATE_TYPEABSENCE",
+			"parentCode": "TYPEABSENCE",
+			"name": "CREATE TYPEABSENCE"
+		},
+		{
+			"code": "UPDATE_TYPEABSENCE",
+			"parentCode": "TYPEABSENCE",
+			"name": "UPDATE TYPEABSENCE"
+		},
+		{
+			"code": "DELETE_TYPEABSENCE",
+			"parentCode": "TYPEABSENCE",
+			"name": "DELETE TYPEABSENCE"
+		}
+
+	]
+}
